@@ -1,0 +1,38 @@
+<!--//  Created by zth on 16-8-10.-->
+<!--//  Copyright (c) 2016年 zth. All rights reserved.-->
+  
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="utf-8">  
+              
+          <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />      
+                  
+            <meta name="description" content="">  
+<!--         引用外部文件，index.js，实现点击事件的方法实现   -->
+            <meta name="viewport" content="width=device-width; initial-scale=1.0">
+             <script type="text/javascript" src="index.js"></script>
+      </head>
+    <!--    参数1:id  这个按钮的唯一标识，相当于OC中的UIButton *btn   那么这里的hallo就相当于btn，代表那个按钮，OC中说指向那个按钮的地址。
+                比如我们OC设置按钮的背景色：btn.backgroundColor = [UIColor cyanColor];
+                那么JS就是   #hallo{background-color : "cyan"}
+            参数2:onclick  点击事件
+            那么下面这句话的意思就是，创建一个按钮，按钮名字叫（点击button）,按钮的地址是（hallo），点击事件是（buttonClick()）
+            楼主不是很会H5的知识，只能这么解释了。这么解释，是不是你想再这里写上JS代码，也一目了然了。。
+     -->
+    <button id="hallo" onclick="buttonClick()"> 点击button</button>  
+    <p>这是一段文字</p>
+    <a href="http://www.baidu.com">百度一下，你就知道</a>
+    <br/>
+    <br/>
+    <button id="XHbutton" onclick="XHbuttonClick()"> 点击button调方法</button>
+    <br/>
+    <br/>
+    <button id="XHbutton" onclick="HbuttonClick()"> 点击button调带参数的方法</button>
+    <br/>
+    <br/>
+    <button id="ZTHbutton" onclick="ZTHbuttonClick()"> 点击button调带多个参数的方法</button>
+    </body>
+      
+</html>  
